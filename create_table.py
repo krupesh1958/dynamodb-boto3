@@ -28,11 +28,11 @@ def create_table(resource=None):
         "TableName": table_name,
         "KeySchema": [
             {"AttributeName": "user_id", "KeyType": "HASH"},
-            {"AttributeName": "email", "KeyType": "RANGE"},
+            {"AttributeName": "email", "KeyType": "RANGE"}
         ],
         "AttributeDefinitions": [
             {"AttributeName": "user_id", "AttributeType": "S"},
-            {"AttributeName": "email", "AttributeType": "S"},
+            {"AttributeName": "email", "AttributeType": "S"}
         ],
         "ProvisionedThroughput": {"ReadCapacityUnits": 5, "WriteCapacityUnits": 5},
     }

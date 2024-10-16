@@ -17,6 +17,7 @@ def transform_dynmaodb_response(item):
     else:
         return item
 
+
 def filter_attributes_types(attributes):
     """
     Filter the attributes type of a DynamoDB table.
