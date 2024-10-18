@@ -29,8 +29,8 @@ def get_items_from_table(resource=None):
             "RandomUser": {
                 "Keys": [
                     {
-                        "user_id": {"S": "1729054663.159515"},
-                        "email": {"S": "angel.lozano@example.com"}
+                        "user_id": {"S": "1729245542.589026"},
+                        "email": {"S": "diy.hudenko@example.com"}
                     },
                 ]
             }
